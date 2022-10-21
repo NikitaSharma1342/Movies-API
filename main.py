@@ -65,12 +65,14 @@ def add_movie():
         return jsonify(name= new_movie.name,
                        ratings= new_movie.ratings,
                        status = "Added the movie successfully")
+    
+    
 @app.route('/getHighRatedMovies')
 def get_high_rated_movies():
     all = Movie.query.filter(Movie.ratings>8).all()
     result = ""
     for a in all:
-        result = result + a.name+"\n"
+        result = result + a.name + "\n"
 
     return result
 
