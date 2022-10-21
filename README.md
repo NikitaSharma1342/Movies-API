@@ -7,7 +7,7 @@ API endpoint is created to access the movie details.
 * Screenshots
 
 # Description
-A database named as `movies.db` is created with the help of __flask - sqlalchemy__. API Endpoint to __Get__, __Post__, __Put__ and __Delete__ is created for functions to search high rated movies, add new movies, update movies and delete movies respectively. It accepts a json format input and json format output from the user.
+A database named as `movies.db` is created with the help of __flask - sqlalchemy__. API Endpoint to __Get__, __Post__, __Patch__ and __Delete__ is created for functions to search high rated movies, add new movies, update movies and delete movies respectively. It accepts a json format input and json format output from the user.
 
 # Libraries, Modules and Frameworks
 * Flask
